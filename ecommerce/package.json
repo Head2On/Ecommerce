@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@geist-ui/react": "^2.2.5",
+    "@stripe/stripe-js": "^1.25.0",
+    "axios": "^1.11.0",
+    "canvas-confetti": "^1.5.1",
+    "next": "^15.5.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "stripe": "^8.222.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@eslint/eslintrc": "^3",
+    "@types/estree": "^1.0.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.2"
+  }
+}
